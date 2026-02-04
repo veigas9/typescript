@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+
+    /* Module & Target */
+    "module": "nodenext",
+    "target": "es2020",
+    "moduleResolution": "nodenext",
+
+    /* Environment */
+    // "types": ["node"],
+
+    /* Output */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Build Safety */
+    "skipLibCheck": true
+  }
+}
